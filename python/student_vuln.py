@@ -20,7 +20,7 @@ def hack(i) :
 	browser.submit()
 	if(browser.geturl() == legit_maker(rawvictory)):
 		print usr+ " is a douchebag"
-		++cseidiot
+		cseidiot+=1
 
 
 
