@@ -29,5 +29,5 @@ def_string = ""
 cseidiot=0
 for i in range(12000, 14470):
 	hack(i)
-print "CSE Department has "+str(cseidiot)+" number of douchebags!"
+print "There are "+str(cseidiot)+" number of douchebags!"
 
