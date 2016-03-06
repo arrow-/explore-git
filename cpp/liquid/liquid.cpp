@@ -26,6 +26,10 @@ int main(int agrc, char *argv[]){
 		    cin>>n1>>n2;
 			res = ml_sub(n1, n2);
 			break;
+        case 4://power
+            cin>>n1>>n2;
+            res = ml_power(n1, n2);
+            break;
 	}
 	cout<<": "<<res<<endl;
 }

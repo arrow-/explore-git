@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1457283068 source:c:\users\kartik\documents\github\explore-git\cpp\liquid\liquid.cpp
+	"math-lib.h"
+	<iostream>
+	<string>
+
+1457280069 source:c:\users\kartik\documents\github\explore-git\cpp\liquid\src\ml_div.cpp
+	"math-lib.h"
+
+1457283438 c:\users\kartik\documents\github\explore-git\cpp\liquid\src\math-lib.h
+	<iostream>
+
+1457280069 source:c:\users\kartik\documents\github\explore-git\cpp\liquid\src\ml_mul.cpp
+	"math-lib.h"
+
+1457280069 source:c:\users\kartik\documents\github\explore-git\cpp\liquid\src\ml_sub.cpp
+	"math-lib.h"
+
+1457281261 source:c:\users\kartik\documents\github\explore-git\cpp\liquid\src\ml_add.cpp
+	"math-lib.h"
+
+1457283411 source:c:\users\kartik\documents\github\explore-git\cpp\liquid\src\ml_power.cpp
+	"math-lib.h"
+
