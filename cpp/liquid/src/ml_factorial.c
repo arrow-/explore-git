@@ -4,5 +4,11 @@ int ml_factorial(int n1)
 // n1 >= 0. No need of error checking!
 // Compute the n1!
 {
-    return 0;
+	long int f = 1;
+	for(int i=n1;i>=1;i++)
+	{
+		f *=i;
+	}
+
+    return f;
 }
