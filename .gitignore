@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+# Code Blocks things
+*.cbp
+*.depend
+*.layout
+
+# Other
+
+*wiki*

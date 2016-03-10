@@ -1,5 +1,10 @@
 #CONTRIBUTING
 
+Fork this repo, make changes, test code, submit pr.
+***
+***Comment on the issue to let everyone know you are working on it. Why should 14 people develop just 1 feature which can be developed by a far less number of people and there are numerous other things to work on?
+Be responsible.***
+***
 The aim of the event is to **Teach Git Hands-On**. Due to time constraints, the projects we provide for hacking ***cannot***
 
 - be difficult, the aim is to learn `git` and not computer science.
