@@ -5,9 +5,9 @@ int ml_factorial(int n1)
 // Compute the n1!
 {
 	long int f = 1;
-	for(int i=n1;i>=1;i++)
+	for(int i=1;i<=n1;i++)
 	{
-		f *=i;
+		f *= i;
 	}
 
     return f;
