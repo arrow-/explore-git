@@ -2,6 +2,11 @@
     - [Math-Lib](#math-lib-gnu-c)
         + [List of Functions](#list-of-functions)
     - [String Processing](#string-processing)
+        + [List of Functions](#list-of-functions_1)
+    - [Game](#game)
+        + [Candidates](#candidates)
+        + [List of Functions](#list-of-functions_1)
+* [Non Collaborative, yet..](#non-collaborative-yet)
         + [List of Functions](#list-of-functions-1)
     - [Game](#game)
         + [Candidates](#candidates)
@@ -23,8 +28,13 @@ Build a CLI math solver which uses functions defined by the teams. Teams can wor
 * Correctness and testing is easy.
 * Little documentation required.
 
+<<<<<<< HEAD
+**We'll have to make the glue application, in `c++`, mostly working on user input handling, displaying results, etc.**
+Teams will implement their function(s) in small source files (as already [done](cpp/math-lib/src/arithmetic.cpp)).
+=======
 **We'll have to make the glue application, in `c++`, mostly working on user input handling, displaying results, etc. See [cpp-expression-parser](https://github.com/bamos/cpp-expression-parser)**
 Teams will implement their function(s) in small source files (as already [done](cpp/liquid/src/ml_add.cpp)).
+>>>>>>> d8c0f38cd79e2b30f6f7afe773a61962e177c3c4
 The app is built using `make`. They need not understand what it does. Teams who have time left can add documentation, review other PRs, perform testing and flag issues, or add even more functionality!
 
 ####List of Functions
@@ -91,4 +101,12 @@ Typically, teams will implement:
 * scoring (health, mana, score, etc)
 * game mechanics (turn policy, this is the overall mainloop)
 * game physics
+<<<<<<< HEAD
 * *game-specific methods*
+
+##Non Collaborative, yet..
+
+**help in learning `git`**
+=======
+* *game-specific methods*
+>>>>>>> d8c0f38cd79e2b30f6f7afe773a61962e177c3c4
