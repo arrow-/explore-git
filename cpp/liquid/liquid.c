@@ -1,7 +1,7 @@
 #include "shunting-yard.h"
 #include <stdio.h>
 #include <string.h>
-
+#include <stdlib.h>
 /*
  *	DONT EDIT THIS FILE!
  *	See the wiki, for a list of keywords that are understood by Liquid.
@@ -21,10 +21,11 @@ int main(int agrc, char *argv[]){
 	double result;
 	char input[100], stripped[100];
 	int i,j;
-
+	//Introduction 
+	system("cowsay 'Welcome to the awesome calculator. Moo!'");
 	printf("Liquid is a smooth CLI math expression evaluator.\nEnter expressions, you need to match all parens.\n\nSee the wiki to know the keywords understood by Liquid\nTo quit just type 'Q'\n");
 	while(1)
-	{	
+	{
 		printf("<< ");
 		gets(input);
 		if(strcmp(input,"Q")==0)
