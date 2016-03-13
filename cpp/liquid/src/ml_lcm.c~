@@ -12,6 +12,6 @@ int ml_lcm(int n1, int n2)
 		if(a%n1==0 && a%n2==0)
 			return a;
 	}
-    return 0;
+   
 }
 
