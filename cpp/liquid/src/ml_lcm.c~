@@ -3,7 +3,6 @@
 int ml_lcm(int n1, int n2)
 // Compute the LCM(n1, n2)
 {
-	int i,a;
 	if(n1>n2)
 		a=n1;
 	else
@@ -13,6 +12,6 @@ int ml_lcm(int n1, int n2)
 		if(a%n1==0 && a%n2==0)
 			return a;
 	}
-    return 0;
+   
 }
 
